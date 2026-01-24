@@ -25,5 +25,14 @@
     "description": "Evitar si no quieres problemas",
     "iconUrl": "leaflet/images/vendedor-ilegal.png",
     "descriptionUrl": "descriptions/vendedor-ilegal.html"
+  },
+  {
+    "name": "Recolecta de Crack",
+    "type": "recolecta",
+    "lat": 3649.50,
+    "lng": 5562.00,
+    "description": "Pertenece a un cárter",
+    "iconUrl": "leaflet/images/crack.png",
+    "descriptionUrl": "descriptions/recolecta-crack-3063.html"
   }
 ]
