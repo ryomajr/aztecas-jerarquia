@@ -1,0 +1,160 @@
+<div class="character-detail-container">
+    <div class="row">
+        <!-- Columna de Imágenes -->
+        <div class="col-md-2 images-column">
+            <div class="portrait-image">
+                <img src="" alt="Alma María Rico - Retrato" class="img-fluid rounded mb-3 character-portrait-img">
+            </div>
+            <div class="fullbody-image">
+                <img src="" alt="Alma María Rico - Cuerpo Completo" class="img-fluid rounded character-fullbody-img">
+            </div>
+        </div>
+
+        <!-- Columna de Información -->
+        <div class="col-md-10 info-column">
+            <h2 class="character-title">Alma María Rico</h2>
+            
+            <div class="info-section">
+                <h4 class="section-title">Rol</h4>
+                <p class="section-content">Sicaria de Aztecas</p>
+            </div>
+
+            <div class="info-section">
+                <h4 class="section-title">Trabajos</h4>
+                <ul class="jobs-list">
+                    <li>Ruta 66</li>
+                    <li>Fibyland</li>
+            </div>
+
+            <div class="info-section">
+                <h4 class="section-title">Descripción</h4>
+                <p class="section-content">
+                    Alma María Rico es la máxima autoridad del cartel. Con décadas de experiencia en el crimen organizado, ha consolidado un imperio criminal que abarca múltiples sectores de la economía clandestina. Su liderazgo se caracteriza por ser firme, despiadado y estratégico. Ha expandido significativamente las operaciones del cartel en los últimos años, estableciendo nuevos puntos de distribución y generando alianzas con otros grupos criminales de la región.
+                </p>
+                <p class="section-content">
+                    Se rumorea que tiene conexiones políticas de alto nivel y que su influencia se extiende más allá de las operaciones criminales convencionales. Es extremadamente cautelosa y delega muchas operaciones a sus lugartenientes, lo que la mantiene alejada de confrontaciones directas.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .character-detail-container {
+        padding: 20px 0;
+    }
+
+    .images-column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .portrait-image {
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+        border: 2px solid #ff6600;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .portrait-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        
+    }
+    
+    .fullbody-image {
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 1 / 2;
+        overflow: hidden;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fullbody-image img {
+        width: 100%;
+        max-width: 300px;
+        height: 600px;
+        object-fit: contain;
+        border: 2px solid #ff6600;
+    }
+
+    .info-column {
+        padding-left: 30px;
+    }
+
+    .character-title {
+        color: #ff6600;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+    }
+
+    .info-section {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        color: #ff6600;
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 12px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+    }
+
+    .section-content {
+        color: #ccc;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    .interest-list, .jobs-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .interest-list li, .jobs-list li {
+        color: #999;
+        padding: 8px 0;
+        padding-left: 20px;
+        border-left: 3px solid #ff6600;
+        margin-bottom: 8px;
+    }
+
+    .interest-list li strong {
+        color: #ff6600;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .info-column {
+            padding-left: 0;
+            margin-top: 30px;
+        }
+
+        .character-title {
+            font-size: 1.8rem;
+        }
+
+        .portrait-image img {
+            max-width: 100%;
+        }
+
+        .fullbody-image img {
+            max-width: 100%;
+        }
+    }
+</style>
