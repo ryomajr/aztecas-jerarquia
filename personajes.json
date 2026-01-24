@@ -5,5 +5,33 @@
         "imgUrl": "personajes/images/alma-maria-rico.jpg",
         "imgCaraUrl": "personajes/images/alma-maria-rico-cara.jpg",
         "descripcionUrl": "personajes/descriptions/alma-maria-rico.html"
+    },
+    {
+        "nombre": "Tordeto",
+        "rol": "Patrón de Aztecas",
+        "imgUrl": "personajes/images/tordeto.jpg",
+        "imgCaraUrl": "personajes/images/tordeto-cara.jpg",
+        "descripcionUrl": "personajes/descriptions/tordeto.html"
+    },
+    {
+        "nombre": "Eduard",
+        "rol": "Sicario de Aztecas",
+        "imgUrl": "personajes/images/eduard.jpg",
+        "imgCaraUrl": "personajes/images/eduard-cara.jpg",
+        "descripcionUrl": "personajes/descriptions/eduard.html"
+    },
+    {
+        "nombre": "Ezequiel",
+        "rol": "Sicario de Aztecas",
+        "imgUrl": "personajes/images/ezequiel.jpg",
+        "imgCaraUrl": "personajes/images/ezequiel-cara.jpg",
+        "descripcionUrl": "personajes/descriptions/ezequiel.html"
+    },
+    {
+        "nombre": "Tadyson",
+        "rol": "Sicario de Aztecas",
+        "imgUrl": "personajes/images/tadyson.jpg",
+        "imgCaraUrl": "personajes/images/tadyson-cara.jpg",
+        "descripcionUrl": "personajes/descriptions/tadyson.html"
     }
 ]

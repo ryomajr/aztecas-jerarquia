@@ -1,0 +1,313 @@
+    .character-detail-container {
+        padding: 20px 0;
+    }
+
+    .images-column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .portrait-image {
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 1 / 1;
+        overflow: hidden;
+        border: 2px solid #ff6600;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .portrait-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+        
+    }
+    
+    .fullbody-image {
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 1 / 2;
+        overflow: hidden;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fullbody-image img {
+        width: 100%;
+        max-width: 300px;
+        height: 600px;
+        object-fit: contain;
+        border: 2px solid #ff6600;
+    }
+
+    .info-column {
+        padding-left: 30px;
+    }
+
+    .character-title {
+        color: #ff6600;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+    }
+
+    .info-section {
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        color: #ff6600;
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 12px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+    }
+
+    .section-content {
+        color: #ccc;
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    .interest-list, .jobs-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .interest-list li, .jobs-list li {
+        color: #999;
+        padding: 8px 0;
+        padding-left: 20px;
+        border-left: 3px solid #ff6600;
+        margin-bottom: 8px;
+    }
+
+    .interest-list li strong {
+        color: #ff6600;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .info-column {
+            padding-left: 0;
+            margin-top: 30px;
+        }
+
+        .character-title {
+            font-size: 1.8rem;
+        }
+
+        .portrait-image img {
+            max-width: 100%;
+        }
+
+        .fullbody-image img {
+            max-width: 100%;
+        }
+    }
+    body {
+        background: #111;
+        color: #ccc;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+        background: #1a1a1a;
+        border-bottom: 2px solid #ff6600;
+    }
+
+    .navbar-brand {
+        color: #ff6600 !important;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        color: #ccc !important;
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+        color: #ff6600 !important;
+    }
+
+    .container-main {
+        min-height: 100vh;
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        color: #ff6600;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+    }
+
+    .character-card {
+        background: #1a1a1a;
+        border: 2px solid #333;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .character-card:hover {
+        border-color: #ff6600;
+        box-shadow: 0 0 20px rgba(255, 102, 0, 0.4);
+        transform: translateY(-5px);
+    }
+
+    .character-card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        background: #0d0d0d;
+    }
+
+    .character-card-body {
+        padding: 20px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .character-name {
+        color: #ff6600;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .character-description {
+        color: #999;
+        font-size: 0.9rem;
+        flex-grow: 1;
+    }
+
+    .btn-view-details {
+        background: #ff6600;
+        border: none;
+        color: #000;
+        font-weight: bold;
+        margin-top: 15px;
+        transition: all 0.3s;
+        width: 100%;
+    }
+
+    .btn-view-details:hover {
+        background: #ff8533;
+        transform: scale(1.05);
+    }
+
+    /* Modal personalizado */
+    .modal-content {
+        background: #1a1a1a;
+        border: 2px solid #ff6600;
+        color: #ccc;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-header {
+        border-bottom: 2px solid #ff6600;
+        background: #0d0d0d;
+        flex-shrink: 0;
+    }
+
+    .modal-title {
+        color: #ff6600;
+        font-weight: bold;
+    }
+
+    .close, .btn-close {
+        filter: brightness(0) invert(1);
+    }
+
+    .modal-body {
+        padding: 10px;
+        overflow-y: auto;
+        flex: 1;
+    }
+
+    .modal-body img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .modal-body h2 {
+        color: #ff6600;
+    }
+
+    .modal-body p, .modal-body li {
+        color: #ccc;
+    }
+
+    .modal-body hr {
+        border-color: #333;
+    }
+
+    .modal-info {
+        background: #0d0d0d;
+        padding: 20px;
+        border-radius: 8px;
+        border-left: 4px solid #ff6600;
+    }
+
+    /* Personalizar modal size */
+    .modal-fullscreen-custom {
+        width: 90vw;
+        max-width: 90%;
+    }
+
+    .no-results {
+        text-align: center;
+        padding: 40px;
+        color: #ff6600;
+        font-size: 1.2rem;
+    }
+
+    .loading {
+        text-align: center;
+        padding: 40px;
+        color: #ff6600;
+    }
+
+    .spinner-border {
+        color: #ff6600;
+    }
+
+    .character-img-wrapper {
+        background: #0d0d0d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .character-img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        display:block;
+    }
+    .character-card {
+        height: 100%;
+    }
