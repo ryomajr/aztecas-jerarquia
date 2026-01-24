@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Barrio Aztecas",
+    "type": "banda",
+    "lat": 2442,
+    "lng": 4012,
+    "description": "Nuestro Barrio",
+    "iconUrl": "leaflet/images/barrio-aztecas.png",
+    "descriptionUrl": "descriptions/barrio-aztecas.html"
+  },
+  {
+    "name": "Marihuana Público",
+    "type": "recolecta-publica",
+    "lat": 3911.00,
+    "lng": 3684.00,
+    "description": "Evitar si no quieres problemas",
+    "iconUrl": "leaflet/images/marijuana.png",
+    "descriptionUrl": "descriptions/marihuana-publico.html"
+  },
+  {
+    "name": "Venta ilegal de herramientas",
+    "type": "vendedor-ilegal",
+    "lat": 5916.36,
+    "lng": 3005.91,
+    "description": "Evitar si no quieres problemas",
+    "iconUrl": "leaflet/images/vendedor-ilegal.png",
+    "descriptionUrl": "descriptions/vendedor-ilegal.html"
+  }
+]

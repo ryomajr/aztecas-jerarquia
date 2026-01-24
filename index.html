@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa RP</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="leaflet/leaflet.css" />
+
+  <style>
+    html, body, #map {
+      height: 100%;
+      margin: 0;
+      background: #111;
+    }
+
+    /* Panel lateral */
+    #sidebar {
+      position: fixed;
+      top: 0;
+      right: -350px;
+      width: 350px;
+      height: 100%;
+      background: #1a1a1a;
+      border-left: 2px solid #ff6600;
+      box-shadow: -5px 0 15px rgba(0, 0, 0, 0.8);
+      transition: right 0.3s ease;
+      overflow-y: auto;
+      z-index: 1000;
+    }
+
+    #sidebar.open {
+      right: 0;
+    }
+
+    #sidebar-header {
+      position: sticky;
+      top: 0;
+      padding: 15px;
+      background: #0d0d0d;
+      border-bottom: 1px solid #ff6600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #sidebar-header h2 {
+      margin: 0;
+      color: #ff6600;
+      font-size: 18px;
+    }
+
+    #close-sidebar {
+      background: none;
+      border: none;
+      color: #ff6600;
+      font-size: 24px;
+      cursor: pointer;
+      padding: 0;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #close-sidebar:hover {
+      color: #fff;
+    }
+
+    #sidebar-content {
+      padding: 15px;
+      color: #ccc;
+    }
+
+    #sidebar-content h2 {
+      color: #ff6600;
+      margin-top: 0;
+    }
+
+    #sidebar-content p {
+      margin: 10px 0;
+    }
+
+    #sidebar-content ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    #sidebar-content li {
+      margin: 5px 0;
+    }
+
+    #sidebar-content hr {
+      border: none;
+      border-top: 1px solid #333;
+      margin: 10px 0;
+    }
+
+    #sidebar-content strong {
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+  
+  <!-- Panel lateral -->
+  <div id="sidebar">
+    <div id="sidebar-header">
+      <h2>Información</h2>
+      <button id="close-sidebar">&times;</button>
+    </div>
+    <div id="sidebar-content">
+      <!-- El contenido se cargará aquí dinámicamente -->
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="leaflet/leaflet.js"></script>
+  <script src="map.js"></script>
+
+</body>
+</html>
