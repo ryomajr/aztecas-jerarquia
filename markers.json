@@ -9,16 +9,16 @@
     "descriptionUrl": "descriptions/barrio-aztecas.html"
   },
   {
-    "name": "Marihuana Público",
-    "type": "recolecta-publica",
-    "lat": 3911.00,
-    "lng": 3684.00,
-    "description": "Evitar si no quieres problemas",
-    "iconUrl": "leaflet/images/marijuana.png",
-    "descriptionUrl": "descriptions/marihuana-publico.html"
+    "name": "Comprador de droga",
+    "type": "comprador-ilegal",
+    "lat": 4664.78,
+    "lng": 3870.70,
+    "description": "Furgoneta donde compran marihuana, crack y cocaína",
+    "iconUrl": "leaflet/images/comprador-ilegal.png",
+    "descriptionUrl": "descriptions/comprador-ilegal.html"
   },
   {
-    "name": "Venta ilegal de herramientas",
+    "name": "Vendedor de herramientas ilegales",
     "type": "vendedor-ilegal",
     "lat": 5916.36,
     "lng": 3005.91,
