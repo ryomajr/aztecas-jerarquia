@@ -34,5 +34,14 @@
     "description": "Pertenece a un cárter",
     "iconUrl": "leaflet/images/crack.png",
     "descriptionUrl": "descriptions/recolecta-crack-3063.html"
+  },
+  {
+    "name": "Procesado de Crack",
+    "type": "procesado-de-crack",
+    "lat": 6167.50,
+    "lng": 3419.25,
+    "description": "Público. Punto caliente",
+    "iconUrl": "leaflet/images/crack-proceso.png",
+    "descriptionUrl": "descriptions/proceso-crack.html"
   }
 ]
