@@ -24,7 +24,7 @@
     "lng": 3450.33,
     "description": "Furgoneta donde compran marihuana, crack y cocaína",
     "iconUrl": "leaflet/images/comprador-ilegal.png",
-    "descriptionUrl": "descriptions/comprador-ilegal-9011.html"
+    "descriptionUrl": "descriptions/comprador-ilegal.html"
   },
   {
     "name": "Vendedor de herramientas ilegales",
@@ -72,12 +72,30 @@
     "descriptionUrl": "descriptions/recolecta-marihuana-privado-2056-2059.html"
   },
   {
-    "name": "Procesado de Crack Barco",
-    "type": "procesado-crack-privado",
+    "name": "Recolecta de Marihuana Playa",
+    "type": "recolecta-marihuana-publico",
     "lat": 4047.48, 
     "lng": 5837.87,
     "description": "Público. Punto caliente",
+    "iconUrl": "leaflet/images/marijuana.png",
+    "descriptionUrl": "descriptions/recolecta-marihuana-playa.html"
+  },
+  {
+    "name": "Procesado de Crack Barco",
+    "type": "procesado-crack-privado",
+    "lat": 951.00,
+    "lng": 5058.00,
+    "description": "Público. Punto caliente",
     "iconUrl": "leaflet/images/crack-proceso.png",
     "descriptionUrl": "descriptions/procesado-crack-barco.html"
+  },
+  {
+    "name": "Procesado de Crack Fundicion",
+    "type": "procesado-crack-privado",
+    "lat": 1363.30,
+    "lng": 4459.02,
+    "description": "Público. Punto caliente",
+    "iconUrl": "leaflet/images/crack-proceso.png",
+    "descriptionUrl": "descriptions/procesado-crack-fundicion.html"
   }
 ]
