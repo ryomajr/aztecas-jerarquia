@@ -18,6 +18,15 @@
     "descriptionUrl": "descriptions/comprador-ilegal.html"
   },
   {
+    "name": "Comprador de droga",
+    "type": "comprador-ilegal",
+    "lat": 1173.44,
+    "lng": 3450.33,
+    "description": "Furgoneta donde compran marihuana, crack y cocaína",
+    "iconUrl": "leaflet/images/comprador-ilegal.png",
+    "descriptionUrl": "descriptions/comprador-ilegal-9011.html"
+  },
+  {
     "name": "Vendedor de herramientas ilegales",
     "type": "vendedor-ilegal",
     "lat": 5916.36,
@@ -43,5 +52,23 @@
     "description": "Público. Punto caliente",
     "iconUrl": "leaflet/images/crack-proceso.png",
     "descriptionUrl": "descriptions/proceso-crack.html"
+  },
+  {
+    "name": "Medico Ilegal",
+    "type": "medico-ilegal",
+    "lat": 1528.00,
+    "lng": 3458.50,
+    "description": "Público. Punto caliente",
+    "iconUrl": "leaflet/images/medico-ilegal.png",
+    "descriptionUrl": "descriptions/medico-ilegal-9003.html"
+  },
+  {
+    "name": "Recolecta de Marihuana 2056-2059",
+    "type": "recolecta-marihuana-privado",
+    "lat": 5819.00,
+    "lng": 6084.00,
+    "description": "Privado. del Marquitos",
+    "iconUrl": "leaflet/images/marijuana.png",
+    "descriptionUrl": "descriptions/recolecta-marihuana-privado-2056-2059.html"
   }
 ]
