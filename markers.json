@@ -70,5 +70,14 @@
     "description": "Privado. del Marquitos",
     "iconUrl": "leaflet/images/marijuana.png",
     "descriptionUrl": "descriptions/recolecta-marihuana-privado-2056-2059.html"
+  },
+  {
+    "name": "Procesado de Crack Barco",
+    "type": "procesado-crack-privado",
+    "lat": 4047.48, 
+    "lng": 5837.87,
+    "description": "Público. Punto caliente",
+    "iconUrl": "leaflet/images/crack-proceso.png",
+    "descriptionUrl": "descriptions/procesado-crack-barco.html"
   }
 ]
